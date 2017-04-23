@@ -26,9 +26,6 @@
 
 require_once(dirname(__FILE__)."/libraries/https.inc.php");
 
-session_start();
-
-
 require_once("./libraries/languagelib.inc.php");
 require_once(getLanguageFile("event_create"));
 require_once("./language_selector.inc.php");

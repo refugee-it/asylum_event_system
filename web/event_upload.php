@@ -26,8 +26,6 @@
 
 require_once(dirname(__FILE__)."/libraries/https.inc.php");
 
-session_start();
-
 $eventHandle = null;
 
 if (isset($_GET['handle']) === true)
